@@ -37,14 +37,6 @@ def team_comp_analysis() -> None:
                 globals()[team+'_players'].append(player_name)
                 player_count += 1
 
-# function name self explanatory here
-# globals() returns an object whos keys are variables declared at the global scope
-# randint(start, end) returns a random integer between start and end arguments
-# returning as a dictionary player -> hero
-def randomly_generate_hero(player, role):
-    hero = globals()[role][randint(0, len(globals()[role])-1)]
-    return {player: hero}
-
 
 # Custom exception to throw validation error
 class AaidensException(Exception):
@@ -62,6 +54,15 @@ def validate_player_count_to_role_composition():
     # ipdb.set_trace()
     if(total_role_count != player_count):
         raise AaidensException('role composition does NOT match player count')
+
+
+# function name self explanatory here
+# globals() returns an object whos keys are variables declared at the global scope
+# randint(start, end) returns a random integer between start and end arguments
+# returning as a dictionary player -> hero
+def randomly_generate_hero(player, role):
+    hero = globals()[role][randint(0, len(globals()[role])-1)]
+    return {player: hero}
 
 # Handles logic for unbalanced teams
 # TODO: Consider alternative looping strategy. some variables are declared in loop and not used. UGLY...
