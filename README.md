@@ -1,14 +1,11 @@
 # overatch-team-randomizer
 
 Generate random teams for custom games with the homies <3 
-
 Can be configured for balanced (2v2, 3v3) and unbalanced matchups (i.e 2v3, 3v4, 4v5)
 
 
 This script uses **json** entries to determine player names and role compositions for teams. 
-
 Edit the values in the json file to configure players and roles. 
-
 A different format is used for *BALANCED* vs *UNBALANCED* teams so edit the file accordingly
 
 
