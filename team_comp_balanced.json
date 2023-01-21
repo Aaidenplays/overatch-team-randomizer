@@ -1,8 +1,8 @@
 {
     "balanced_role_composition": {
         "tank": 1,
-        "damage": 2,
-        "support": 1
+        "damage": 1,
+        "support": 2
     },
     "team1": {
         "player1": "jj",

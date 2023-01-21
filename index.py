@@ -1,6 +1,5 @@
 import json
 from random import randint
-import ipdb
 import sys
 
 # all the heroes and roles

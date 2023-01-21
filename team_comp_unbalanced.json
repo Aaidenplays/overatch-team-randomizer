@@ -7,9 +7,9 @@
         "player5": "",
         "player6": "",
         "role_composition": {
-            "tank": 1,
-            "damage": 1,
-            "support": 1
+            "tank": 3,
+            "damage": 0,
+            "support": 0
         }
     },
     "team2":{
