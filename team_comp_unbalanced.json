@@ -1,0 +1,28 @@
+{
+    "team1": {
+        "player1": "jj",
+        "player2": "alan",
+        "player3": "james",
+        "player4": "",
+        "player5": "",
+        "player6": "",
+        "role_composition": {
+            "tank": 1,
+            "damage": 1,
+            "support": 1
+        }
+    },
+    "team2":{
+        "player1": "sean",
+        "player2": "duo",
+        "player3": "Cong",
+        "player4": "Wes",
+        "player5": "",
+        "player6": "",
+        "role_composition": {
+            "tank": 2,
+            "damage": 1,
+            "support": 1
+        }
+    }
+}
