@@ -1,26 +1,26 @@
 {
     "team1": {
-        "player1": "jj",
-        "player2": "alan",
-        "player3": "james",
+        "player1": "Cong",
+        "player2": "Sean",
+        "player3": "Shadow",
+        "player4": "James",
+        "player5": "",
+        "player6": "",
+        "role_composition": {
+            "tank": 1,
+            "damage": 1,
+            "support": 2
+        }
+    },
+    "team2":{
+        "player1": "Aaiden",
+        "player2": "Alan",
+        "player3": "Heather",
         "player4": "",
         "player5": "",
         "player6": "",
         "role_composition": {
-            "tank": 3,
-            "damage": 0,
-            "support": 0
-        }
-    },
-    "team2":{
-        "player1": "sean",
-        "player2": "duo",
-        "player3": "Cong",
-        "player4": "Wes",
-        "player5": "",
-        "player6": "",
-        "role_composition": {
-            "tank": 2,
+            "tank": 1,
             "damage": 1,
             "support": 1
         }

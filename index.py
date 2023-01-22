@@ -1,6 +1,8 @@
+#!
 import json
 from random import randint
 import sys
+import ipdb
 
 # all the heroes and roles
 roles = ["tank", "damage", "support"]
@@ -147,6 +149,22 @@ def main():
     else:
         handle_unbalanced_team()
 
+    def check_team_dupes():
+        team1_hero_set = set([])
+        team2_hero_set = set([])
+        for player in team1:
+            for hero in player:
+                team1_hero_set.add(player[hero])
+        for player in team2:
+            for hero in player:
+                team2_hero_set.add(player[hero])
+
+        if(len(team1_hero_set) != len(team1) or len(team2_hero_set) != len(team2)):
+            return False
+        return True
+
+    if(not check_team_dupes()):
+        raise AaidensException('DUPLICATED HEROES FOUND oopsie I have a bug... just run it again lazy bones')
 
     # PRINT final results to the terminal
     # TEAM 1 RESULTS
